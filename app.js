@@ -1,7 +1,6 @@
 'use strict';
 
 var express = require('express');
-var cy = require('cytoscape');
 
 var app = express();
 
