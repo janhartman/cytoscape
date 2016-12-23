@@ -4,55 +4,35 @@
 			"data": {
 				"id": "2",
 				"name": "B",
-				"score": 0.006769776522008331,
-				"query": true,
-				"gene": true
+				"score": 0.006769776522008331
 			},
-			"group": "nodes",
-			"removed": false,
-			"selected": false,
-			"selectable": true,
-			"locked": false,
-			"grabbed": false,
-			"grabbable": true
+			"position": {
+				"x": 905.3802465599952,
+				"y": 493.3679393218726
+			},
+			"group": "nodes"
 		},
 		{
 			"data": {
 				"id": "1",
 				"name": "A",
-				"score": 0.005,
-				"query": true,
-				"gene": true
+				"score": 0.005
 			},
-			"group": "nodes",
-			"removed": false,
-			"selected": false,
-			"selectable": true,
-			"locked": false,
-			"grabbed": false,
-			"grabbable": true
+			"position": {
+				"x": 505.3802465599952,
+				"y": 493.3679393218726
+			},
+			"group": "nodes"
 		},
 		{
 			"data": {
 				"source": "1",
 				"target": "2",
-				"weight": 0.012590342,
-				"group": "coexp",
-				"networkId": 1133,
-				"networkGroupId": 18,
-				"intn": true,
-				"rIntnId": 3,
+				"weight": 0.052590342,
 				"id": "e1"
 			},
 			"position": {},
-			"group": "edges",
-			"removed": false,
-			"selected": false,
-			"selectable": true,
-			"locked": false,
-			"grabbed": false,
-			"grabbable": true,
-			"classes": ""
+			"group": "edges"
 		}
 		
 	]

@@ -61,7 +61,7 @@
 				"haystack-radius": "0.5",
 				"opacity": "0.4",
 				"line-color": "#bbb",
-				"width": "mapData(weight, 0, 1, 1, 2)",
+				"width": "mapData(weight, 0, 1, 1, 5)",
 				"overlay-padding": "1px"
 			}
 		},
