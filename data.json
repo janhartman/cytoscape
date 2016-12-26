@@ -2,38 +2,123 @@
 	"elements": [
 		{
 			"data": {
-				"id": "2",
-				"name": "B",
+				"id": "0",
+				"name": "Genomics",
 				"score": 0.006769776522008331
 			},
 			"position": {
-				"x": 905.3802465599952,
-				"y": 493.3679393218726
+				"x": 100,
+				"y": 500
 			},
 			"group": "nodes"
 		},
 		{
 			"data": {
 				"id": "1",
-				"name": "A",
+				"name": "Epigenomics",
 				"score": 0.005
 			},
 			"position": {
-				"x": 505.3802465599952,
-				"y": 493.3679393218726
+				"x": 500,
+				"y": 500
 			},
 			"group": "nodes"
 		},
 		{
 			"data": {
-				"source": "1",
-				"target": "2",
-				"weight": 0.052590342,
-				"id": "e1"
+				"id": "2",
+				"name": "Transcriptomics",
+				"score": 0.005
 			},
-			"position": {},
-			"group": "edges"
+			"position": {
+				"x": 300,
+				"y": 400
+			},
+			"group": "nodes"
+		},
+		{
+			"data": {
+				"id": "3",
+				"name": "miRNomics / ncRNomics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 600,
+				"y": 700
+			},
+			"group": "nodes"
+		},
+		{
+			"data": {
+				"id": "4",
+				"name": "Proteomics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 600,
+				"y": 400
+			},
+			"group": "nodes"
+		},	
+		{
+			"data": {
+				"id": "5",
+				"name": "Phenomics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 100,
+				"y": 100
+			},
+			"group": "nodes"
+		},
+		{
+			"data": {
+				"id": "6",
+				"name": "Interactomics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 500,
+				"y": 200
+			},
+			"group": "nodes"
+		},
+		{
+			"data": {
+				"id": "7",
+				"name": "Environmental omics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 700,
+				"y": 800
+			},
+			"group": "nodes"
+		},
+		{
+			"data": {
+				"id": "8",
+				"name": "Metabolomics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 800,
+				"y": 300
+			},
+			"group": "nodes"
+		},
+		{
+			"data": {
+				"id": "9",
+				"name": "Pharmacogenomics",
+				"score": 0.005
+			},
+			"position": {
+				"x": 300,
+				"y": 300
+			},
+			"group": "nodes"
 		}
-		
 	]
 }
