@@ -7,7 +7,7 @@ var articlesFile = require('./articles.json');
 
 var app = express();
 
-data.elements = data.elements.concat(getGraphEdgesFromArticles());
+data.elements = getDataFromArticles();
 
 app.set('view engine', 'ejs');
 
@@ -23,8 +23,12 @@ app.listen(process.env.PORT || 8080, function() {
     console.log('Server running');
 });
 
-function getGraphEdgesFromArticles() {
+function getDataFromArticles() {
     var edges = [];
+    var nodes = data.elements;
+    var unit = 1;
+    var low = 0;
+    var high = 10;
     
     articlesFile.articles.forEach(function(article) {
         for (var omic1 in article) {
@@ -39,16 +43,19 @@ function getGraphEdgesFromArticles() {
                 			"data": {
                 				"source": id1,
                 				"target": id2,
-                				"weight": 0.1
+                				"weight": 0.1,
+                				"group": Math.floor(Math.random() * (high - low + 1) + low).toString()
                 			},
                 			"position": {},
                 			"group": "edges"
                 		});
+                		nodes[id1].data.score += unit;
+                		nodes[id2].data.score += unit;
                     }
                 }
             }
         }
     });
     
-    return edges;
+    return nodes.concat(edges);
 }

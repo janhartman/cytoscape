@@ -4,7 +4,7 @@
 			"data": {
 				"id": "0",
 				"name": "Genomics",
-				"score": 0.006769776522008331
+				"score": 0
 			},
 			"position": {
 				"x": 100,
@@ -16,7 +16,7 @@
 			"data": {
 				"id": "1",
 				"name": "Epigenomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 500,
@@ -28,7 +28,7 @@
 			"data": {
 				"id": "2",
 				"name": "Transcriptomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 300,
@@ -40,7 +40,7 @@
 			"data": {
 				"id": "3",
 				"name": "miRNomics / ncRNomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 600,
@@ -52,7 +52,7 @@
 			"data": {
 				"id": "4",
 				"name": "Proteomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 600,
@@ -64,7 +64,7 @@
 			"data": {
 				"id": "5",
 				"name": "Phenomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 100,
@@ -76,7 +76,7 @@
 			"data": {
 				"id": "6",
 				"name": "Interactomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 500,
@@ -88,7 +88,7 @@
 			"data": {
 				"id": "7",
 				"name": "Environmental omics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 700,
@@ -100,7 +100,7 @@
 			"data": {
 				"id": "8",
 				"name": "Metabolomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 800,
@@ -112,7 +112,7 @@
 			"data": {
 				"id": "9",
 				"name": "Pharmacogenomics",
-				"score": 0.005
+				"score": 0
 			},
 			"position": {
 				"x": 300,

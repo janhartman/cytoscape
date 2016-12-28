@@ -11,8 +11,8 @@
 		{
 			"selector": "node",
 			"style": {
-				"width": "mapData(score, 0, 0.006769776522008331, 20, 60)",
-				"height": "mapData(score, 0, 0.006769776522008331, 20, 60)",
+				"width": "mapData(score, 0, 50, 30, 70)",
+				"height": "mapData(score, 0, 50, 30, 70)",
 				"content": "data(name)",
 				"font-size": "12px",
 				"text-valign": "center",
@@ -105,67 +105,67 @@
 			}
 		},
 		{
-			"selector": "edge[group=\"coexp\"]",
+			"selector": "edge[group=\"0\"]",
 			"style": {
 				"line-color": "#d0b7d5"
 			}
 		},
 		{
-			"selector": "edge[group=\"coloc\"]",
+			"selector": "edge[group=\"1\"]",
 			"style": {
 				"line-color": "#a0b3dc"
 			}
 		},
 		{
-			"selector": "edge[group=\"gi\"]",
+			"selector": "edge[group=\"2\"]",
 			"style": {
 				"line-color": "#90e190"
 			}
 		},
 		{
-			"selector": "edge[group=\"path\"]",
+			"selector": "edge[group=\"3\"]",
 			"style": {
 				"line-color": "#9bd8de"
 			}
 		},
 		{
-			"selector": "edge[group=\"pi\"]",
+			"selector": "edge[group=\"4\"]",
 			"style": {
 				"line-color": "#eaa2a2"
 			}
 		},
 		{
-			"selector": "edge[group=\"predict\"]",
+			"selector": "edge[group=\"5\"]",
 			"style": {
 				"line-color": "#f6c384"
 			}
 		},
 		{
-			"selector": "edge[group=\"spd\"]",
+			"selector": "edge[group=\"6\"]",
 			"style": {
 				"line-color": "#dad4a2"
 			}
 		},
 		{
-			"selector": "edge[group=\"spd_attr\"]",
+			"selector": "edge[group=\"7\"]",
 			"style": {
 				"line-color": "#D0D0D0"
 			}
 		},
 		{
-			"selector": "edge[group=\"reg\"]",
+			"selector": "edge[group=\"8\"]",
 			"style": {
 				"line-color": "#D0D0D0"
 			}
 		},
 		{
-			"selector": "edge[group=\"reg_attr\"]",
+			"selector": "edge[group=\"9\"]",
 			"style": {
 				"line-color": "#D0D0D0"
 			}
 		},
 		{
-			"selector": "edge[group=\"user\"]",
+			"selector": "edge[group=\"10\"]",
 			"style": {
 				"line-color": "#f0ec86"
 			}
